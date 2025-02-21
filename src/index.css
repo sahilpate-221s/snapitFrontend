@@ -1,0 +1,63 @@
+/* Import Google Fonts before Tailwind's directives */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Diphylleia:wght@400;700&family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import 'animate.css';
+
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body styling */
+body {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+}
+
+
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #000;
+    width: 0;
+    animation: typing 3s steps(30) 1s forwards;
+  }
+  
+
+  /* Add this to your CSS file */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px; /* Adjust space between columns */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 15px; /* Adjust space between columns */
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 10px; /* Adjust space between rows */
+}
+
+
+/* Hide scrollbar while maintaining scroll functionality */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, etc.) */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
