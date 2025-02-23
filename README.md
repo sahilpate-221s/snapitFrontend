@@ -18,7 +18,6 @@
 - 🎨 **Modern UI**: Responsive and stylish interface  
 - ⚡ **Fast Performance**: Optimized with Vite and Tailwind CSS  
 - 🔄 **State Management**: Redux for seamless data handling  
-- 🔔 **Real-time Notifications**: Smooth user interaction with React Toastify  
 
 ## 📂 Project Setup  
 
