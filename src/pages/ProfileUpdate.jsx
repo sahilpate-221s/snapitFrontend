@@ -56,7 +56,7 @@ const ProfileUpdate = ({ isOpen, onClose }) => {
         });
         onClose();
         navigate("/dashboard");
-        window.location.reload();
+        //window.location.reload();
       }
     } catch (error) {
       console.error("Error in handleSubmit:", error);
